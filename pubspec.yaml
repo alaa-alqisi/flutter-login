@@ -1,0 +1,23 @@
+name: login
+description: create login app
+
+publish_to: "nextwo"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^4.0.0
+  meta: ^1.1.6
+  equatable: ^1.0.0
+  groovin_widgets: ^1.5.0+2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
